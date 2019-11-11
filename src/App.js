@@ -9,6 +9,7 @@ const App = (props) => {
 };
 
 const mapStateToProps = (state) => {
+  console.log('state', state)
   return {
     list: state.appReducer.list
   };
